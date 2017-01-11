@@ -1,9 +1,0 @@
-{
-  "env": "test",
-  "server": {
-    "port": "8080",
-  },
-  "logging": {
-    "format": "dev",
-  }
-}
