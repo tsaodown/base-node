@@ -16,8 +16,4 @@ app.listen(conf.get('server.port'), () => {
   console.log(`Server listening on port ${conf.get('server.port')}`)
 })
 
-app.get('/', (req, res) => {
-  res.json('bleh')
-})
-
 module.exports = app
